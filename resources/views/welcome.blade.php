@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>خاتون هنر</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -965,7 +965,7 @@
                 </header>
 
                 <main class="mt-6">
-                    <div x-data="{ imageUrl: '{{ asset("build/assets/images/sew.jpg") }}' }">
+                    <div x-data="{ imageUrl: '{{ asset("build/assets/images/sew22.png") }}' }">
 
                         <!-- Image Display -->
                         <img :src="imageUrl" alt="Dynamic Image" class="full-width-image">
