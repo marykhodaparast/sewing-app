@@ -10,6 +10,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        @yield('css_after')
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -29,8 +30,10 @@
 
             <!-- Page Content -->
             <main>
+                @yield('content')
                 {{ $slot }}
             </main>
         </div>
     </body>
+    @yield('js_after')
 </html>
