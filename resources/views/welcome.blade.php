@@ -985,13 +985,13 @@
 
                         <!-- Right div -->
                         <div class="box">
-                            <p class="text-black">خیاطی را با زبان ساده و حرفه ای با استاد مهناز آرش یاد بگیرید</p>
+                            <p class="text-black mt-5">خیاطی را با زبان ساده و حرفه ای با استاد مهناز آرش یاد بگیرید</p>
 
-                             <div x-data="{ imageUrl3: '{{ asset("build/assets/images/sew_woman.png") }}' }">
+                             {{-- <div x-data="{ imageUrl3: '{{ asset("build/assets/images/sew_woman.png") }}' }">
 
                                  <!-- Image Display -->
                                  <img :src="imageUrl3" alt="Dynamic Image" class="full-width-image">
-                             </div>
+                             </div> --}}
 
                         </div>
                     </div>
